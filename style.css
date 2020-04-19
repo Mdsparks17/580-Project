@@ -1,0 +1,207 @@
+/* @import url(fonts/clear-sans.css); */
+#root {
+  margin: 2em 0;
+  text-align: center;
+}
+
+body {
+  background: url("GreenGradient.jpg") no-repeat center center fixed;
+  background-color: #cccccc;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+
+body > main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1em 2em;
+  font-family: sans-serif;
+  background-color: #f8f8f8;
+  min-height: 100vh;
+  box-sizing: border-box;
+  border: 5px solid #13294B;
+  border-radius: 10px;
+}
+
+body a {
+  color: #4B9CD3;
+  text-decoration: none;
+}
+
+body a:hover {
+  color: #13294B;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+h2 {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+h3 {
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.header {
+  padding: 20px;
+}
+
+.left {
+  float: left;
+  margin: auto;
+}
+
+.right {
+  float: right;
+  margin: auto;
+}
+
+.centerBlock {
+  /* background-color: yellow; */
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:5%;
+  /* padding-top: 70px; */
+  width: 450px;
+}
+
+.bigCenter {
+  margin:auto;
+  display: inline-block;
+  /* background-color: red; */
+  font-size: 70px;
+  width: 300px;
+  padding-top: 10px;
+
+}
+
+.imageCenter {
+  margin:auto;
+  display: inline-block;
+  /* background-color: blue; */
+  width: 130px;
+  height: auto
+  
+}
+
+.button {
+  background-color: transparent;
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.info {
+  background-color: #f1c32b;
+  width: 600px;
+  height: 50px;
+  border-radius: 8px;
+  margin:auto;
+  margin-top: 50px;
+  padding-top: 15px;
+  text-align: center;
+  align-items: center;
+}
+
+.link {
+  background-color: white;
+  width: 600px;
+  height: 50px;
+  border-radius: 8px;
+  margin:auto;
+  margin-top: 15px;
+  padding-top: 15px;
+  text-align: center;
+  align-items: center;
+}
+
+.link:hover, .link:focus, .linkactive{
+  background-color: #f1c32b;
+}
+
+/*  */
+.piano {
+  margin:auto;
+  /* background-color: red; */
+  /* margin-right:200px; */
+  margin-top:60px;
+  margin-left: center;
+  /* padding-right: 500px; */
+  /* width: 100%; */
+}
+
+.svgPiano {
+  display: block;
+  margin:auto;
+}
+
+.white {
+  fill:white;
+  stroke:black;
+  stroke-width:1;
+  cursor:pointer;
+  margin:2px;
+}
+
+.black {
+  fill:black;
+  stroke-width:1;
+  cursor:pointer;
+  margin:2px;
+}
+
+.black:hover {
+  fill:#515151;
+  stroke:lightblue;
+  stroke-width:1;
+  outline: black solid 1px;
+}
+
+.white:hover {
+  fill:lightgrey;
+  stroke:lightblue;
+  stroke-width:1;
+  outline: black solid 1px;
+}
+
+.whitekey {
+  height: 140px;
+  width: 50px;
+  background-color: white;
+  /* float:left; */
+  display: inline-block;
+}
+.blackkey {
+  height: 80px;
+  width: 50px;
+  background-color: black;
+  /* float:left; */
+  display: inline-block;
+}
+
+.blackkey:hover {
+  background-color: grey;
+}
+
+.whitekey:hover {
+  background-color: lightgrey;
+}
+
+/*  */

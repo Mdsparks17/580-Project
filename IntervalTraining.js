@@ -25,6 +25,7 @@ function setup() {
 }
 
 function onMIDISuccess(midiAccess) {
+    say("Click on page to Begin")
     listenClick();
     MIDI.loadPlugin({
         soundfontUrl: "./soundfont/",

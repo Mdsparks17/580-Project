@@ -1,10 +1,10 @@
 var randNote = 60;
 var state = 0;
+var gameMode = 0;
 var soundOn = false;
 var midiOn = true;
 var transpose = 0;
 var i = 0;
-var bpmSound = new sound("SoundBPM.mp3");
 
 //setup
 setup();
@@ -141,14 +141,14 @@ function handlePiano(e) {
 function listenKey(info) {
     $(document).keydown(function(e){
         if(e.keyCode == 32) { //space
-            if (state != 1) {
+            if (gameMode == 0) {
                 setTimeout(function() {
                     game();
                 }, 1000);
-                state = 1;
+                gameMode = 1;
                 say("Rhythm Training");
                 handleGame();
-            } else {
+            } else if (gameMode == 1){
                 if (countDown > 0) {
                     handleBeat();
                     userBeat();
@@ -256,17 +256,25 @@ function game() {
 
 function startMetronome() {
     metronome = setInterval(function() {
+        var bpmSound = new sound("SoundBPM.mp3");
         bpmSound.play();
+        console.log("click");
     }, 60000/targetBpm);
 }
 
 function finalScore(score) {
     say("Your BPM:" + score + ". Actual BPM" + targetBpm);
-
+    gameMode = 2;
+    countDown = 14;
+    beatTimes = [];
     $("h2.info").fadeTo(500, .01);
     setTimeout(function() {
         $("h2.info").replaceWith("<h2 class='info'>Your BPM: " + score + "\n" + "Actual BPM: " + targetBpm +  "</h2>");
         $("h2.info").fadeTo(0, .01);
         $("h2.info").fadeTo(500, 1);
+        gameMode = 0;
     }, 500);
+    setTimeout(function() {
+        gameMode = 0;
+    }, 2000);
 }

@@ -175,7 +175,7 @@ function handleFreePlay() {
 function handleGame(note) {
     $("h2.info").fadeTo(500, .01);
     setTimeout(function() {
-        $("h2.info").replaceWith("<h2 class='info'>Guess Note</h2>");
+        $("h2.info").replaceWith("<h2 class='info'>Play a " + note + " " + chordTypeString + " chord</h2>");
         $("h2.info").fadeTo(0, .01);
         $("h2.info").fadeTo(500, 1);
     }, 500);
@@ -208,6 +208,11 @@ function listenKey(info) {
                 state = 0;
             }
         }
+
+        if (e.keyCode == 13) {
+            say("Press space to start, use the up and down arrow keys to navigate through different chord types, play all the notes at the same time to win.")
+        }
+
         //changes chord type
         if(e.keyCode == 38) {chordType(1); say(chordTypeString);}
         if(e.keyCode == 40) {chordType(-1); say(chordTypeString);}
@@ -275,8 +280,8 @@ function keyNoteOff(note) {
 function listenClick(info) {
     $(document).click(function(e){
         if (!soundOn) {
-            say("on");
-            // say("Free play mode on, press space to toggle on perfect pitch training.")
+            // say("on");
+            say("press space to toggle on chord training. Press enter for instructions.")
             listenKey();
             handleFreePlay();
             soundOn = true;
@@ -313,6 +318,7 @@ function chordGame() {
     chordGenerator(type, note);
     var noteLetter = noteName(note);
     say("play a " + noteLetter + "  " + chordTypeString + " chord");
+    handleGame(noteLetter);
     setTimeout(function() {
         playChord();
     }, 2500)

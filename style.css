@@ -55,6 +55,13 @@ h3 {
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
+h4 {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
 .header {
   padding: 20px;
 }
@@ -78,6 +85,15 @@ h3 {
   width: 450px;
 }
 
+.centerBlockWide {
+  /* background-color: yellow; */
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:5px;
+  /* padding-top: 70px; */
+  width: 75%;
+}
+
 .bigCenter {
   margin:auto;
   display: inline-block;
@@ -88,13 +104,20 @@ h3 {
 
 }
 
+
 .imageCenter {
   margin:auto;
   display: inline-block;
   /* background-color: blue; */
   width: 130px;
   height: auto
-  
+}
+
+.imageCenter2 {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .button {

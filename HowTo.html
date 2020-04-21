@@ -1,52 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Perfect Pitch Training</title>
+    <title>Piano Pro</title>
     <link rel="shortcut icon" href="favicon.ico">
 </head> 
 <body data-step="0">
     <div class="header">
-        <button onclick="window.location.href = 'index.html';" class="button left">Home</button>
+        <h2 class="left">Midi Device Supported</h2>
         <a href="HowTo.html">
             <button class="button right">How-To Guide</button>
         </a>
     </div>
     <div class="centerBlock">
-        <h1 class="bigCenter">Perfect Pitch Trainer</h1>
-        <img class="imageCenter" src="note.png" alt="white note">
+        <h1>Piano Pro Guide</h1>
     </div>
-    <div class="infoArea">
-        <h2 class="info">Click on the page to begin!</h2>
-    </div>
+    <div class="centerBlockWide">
+        <h2>Hello and Welcome to Piano Pro! Piano Pro is an app intended
+            for assisting both Sighted and Blind peoples better learn the Piano. 
+        </h2>
+        <h2>While most of the app is functional using your computer keyboard, it is possible
+            to use piano pro with your electric piano! Follow this guide for Yamahas or Google your piano's manual for driver installation and connectivity.
+        </h2>
+        <h4>        
+            (https://europe.yamaha.com/files/download/other_assets/3/455293/InstallationGuide_en.pdf)
+        </h4>
 
-    <!-- my stupid piano -->
-    <div class="piano centerBlock">
-        <div style=margin-bottom:-84px;position:relative;>
-            <div class="blackkey" id="61" style=margin-left:25px;></div>
-            <div class="blackkey" id="63"></div>
-            <div class="blackkey" id="66" style=margin-left:56px;></div>
-            <div class="blackkey" id="68"></div>
-            <div class="blackkey" id="70"></div>
+        <h2>
+            Keyboard Layout Controls
+        </h2>
+        <div class="centerBlockWide">
+        <div class="imageCenter2">
+        <img src="KeyboardGuide.png" alt="Computer Keyboard Controls">
         </div>
-        <div>
-            <div class="whitekey" id="60"></div>
-            <div class="whitekey" id="62"></div>
-            <div class="whitekey" id="64"></div>
-            <div class="whitekey" id="65"></div>
-            <div class="whitekey" id="67"></div>
-            <div class="whitekey" id="69"></div>
-            <div class="whitekey" id="71"></div>
-            <div class="whitekey" id="72"></div>
+        <div class="imageCenter2">
+        <img src="ArrowGuide.png" alt="Arrow Key Controls">
+        </div>
         </div>
     </div>
-    <!--  -->
+    
+
+    
     
     <!-- Links & Script Dump -->
     <link rel="stylesheet" href="style.css" />
     <!-- general -->
-    <script src="PerfectPitch.js" type="module"></script>
+    <!-- <script src="index.js" type="module"></script> -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>    <!-- shims -->
-    <!-- shims -->
     <script src="./inc/shim/Base64.js" type="text/javascript"></script>
     <script src="./inc/shim/Base64binary.js" type="text/javascript"></script>
     <script src="./inc/shim/WebAudioAPI.js" type="text/javascript"></script>

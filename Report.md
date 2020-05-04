@@ -32,16 +32,16 @@ Kingdom Hearts sounds
 Free Sound sounds  
 
 **How-To Guide**  
-This app requires Google Chrome to make full use of MIDI technology. From opening the webpage the sight should be navigable using the arrow keys and items can be chosen using enter. Please consult the How-To graphics, but generally the controls are:
-Enter: Help
-Space: Start/Stop/Reset Game
-Arrow Up: Navigate up through options
-Arrow Down: Navigate down through options
-Arrow Left: No/Lower
-Arrow Right: Yes/Higher
-M: Score
-AWSEDFTJIKOL;: Uses computer keyboard to play C4 through C5 (these are common notes)
-GH: change octave
+This app requires Google Chrome to make full use of MIDI technology. From opening the webpage the sight should be navigable using the arrow keys and items can be chosen using enter. Please consult the How-To graphics, but generally the controls are:  
+Enter: Help  
+Space: Start/Stop/Reset Game  
+Arrow Up: Navigate up through options  
+Arrow Down: Navigate down through options  
+Arrow Left: No/Lower  
+Arrow Right: Yes/Higher  
+M: Score  
+AWSEDFTJIKOL;: Uses computer keyboard to play C4 through C5 (these are common notes)  
+GH: change octave  
 
 **Problems Encountered**  
 - MIDI drivers are buggy, problems have been encountered with MIDI input devices on the GitPage site

@@ -18,18 +18,18 @@ The traditional route to playing piano, that is through reading sheet music, is 
 This app is MIDI device compatible! That is to say you can operate this app with the aid of an electric piano (this is the preferred way of using this app). Generally what one will need to do is find the manual or manufacturer’s site for the desired MIDI input device and download the correct driver so the page will recognize inputs. The specific process for each device is different, and drivers are often frustrating to install. The project is playable without a MIDI input device and instead using your keyboard, but it is difficult to do chord training without one.
 
 **Frameworks, Libraries, and other Sources**
-Web MIDI API__
-Featured Web MIDI API Examples__
-MIDI.JS__
-Web Audio API__
-HTML5 speech synthesis__
-Jquery__
-bpm-game: (https://github.com/tgwizard/bpm-game/blob/gh-pages/js/keep-bpm.js)__
-dom_request_script.js: Loads scripts in synchronously, or asynchronously.__
-dom_request_xhr.js: Cross-browser XML/Http request.__
-Kawai Grand Piano sf2 sounds__
-Kingdom Hearts sounds__
-Free Sound sounds__
+Web MIDI API  
+Featured Web MIDI API Examples  
+MIDI.JS  
+Web Audio API  
+HTML5 speech synthesis  
+Jquery  
+bpm-game: (https://github.com/tgwizard/bpm-game/blob/gh-pages/js/keep-bpm.js)  
+dom_request_script.js: Loads scripts in synchronously, or asynchronously.  
+dom_request_xhr.js: Cross-browser XML/Http request.  
+Kawai Grand Piano sf2 sounds  
+Kingdom Hearts sounds  
+Free Sound sounds  
 
 **How-To Guide**
 This app requires Google Chrome to make full use of MIDI technology. From opening the webpage the sight should be navigable using the arrow keys and items can be chosen using enter. Please consult the How-To graphics, but generally the controls are:
@@ -44,16 +44,16 @@ AWSEDFTJIKOL;: Uses computer keyboard to play C4 through C5 (these are common no
 GH: change octave
 
 **Problems Encountered**
-MIDI drivers are buggy, problems have been encountered with MIDI input devices on the GitPage site
-Input lag can be an issue depending on the environment
-Text to Speech can get queued too much and be confusing
-Clicking on the page is a necessary evil, and it may be a problem for some users
-Using the computer keyboard as an input device can be frustrating at times, competing ideologies exist on how the setup should be, my setup utilizes the common feature of ‘home nubs’ on ‘F’ and ‘J’ that could help orient blind users better. 
+- MIDI drivers are buggy, problems have been encountered with MIDI input devices on the GitPage site
+- Input lag can be an issue depending on the environment
+- Text to Speech can get queued too much and be confusing
+- Clicking on the page is a necessary evil, and it may be a problem for some users
+- Using the computer keyboard as an input device can be frustrating at times, competing ideologies exist on how the setup should be, my setup utilizes the common feature of ‘home nubs’ on ‘F’ and ‘J’ that could help orient blind users better. 
 
 **Future Work**
-Many more mini games could be imagined, such as scale training, basic song training, different time signature training. It would be great to see this project become a nexus for various fun piano games that could be assigned by instructors. __
-Very simple games such as identifying where a note on a keyboard could be very useful for teaching new young learners. This app assumes a fundamental understanding of the piano, but one could imagine that young blind learners would struggle with a haptic understanding of the piano without an instructor. __
-A very hard project would be making an accessible version of https://galactic.ink/piano/ that allows for blind people to learn piano completely by ear, perhaps even providing a learning path to basic piano competency. __
+- Many more mini games could be imagined, such as scale training, basic song training, different time signature training. It would be great to see this project become a nexus for various fun piano games that could be assigned by instructors. 
+- Very simple games such as identifying where a note on a keyboard could be very useful for teaching new young learners. This app assumes a fundamental understanding of the piano, but one could imagine that young blind learners would struggle with a haptic understanding of the piano without an instructor. 
+- A very hard project would be making an accessible version of https://galactic.ink/piano/ that allows for blind people to learn piano completely by ear, perhaps even providing a learning path to basic piano competency. 
 
 
 

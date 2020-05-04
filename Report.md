@@ -2,6 +2,8 @@
 **Final Report**  
 **Mchael Sparks**  
 **Project Name: Piano Pro**  
+Site Link: https://mdsparks17.github.io/580-Project/  
+See Demo Here: https://drive.google.com/file/d/138F0zlhcnmUxIqiS_b-H9aO13JC24NJT/view?usp=sharing  
 
 **Purpose, Description, and Intended Audience**  
 This project is intended to help both blind and sighted people learn piano skills through the browser. Generally it can be time consuming, resource intensive, and expensive to get piano lessons and materials for the visually impared, so this project was made to help alleviate some of the costs and provide an alternative to learning beginner to intermediate piano skills. Piano Pro trains in 4 different skills: Perfect Pitch, Intervals, Chords, and Rhythm, all core skills pianists must have. 
@@ -11,8 +13,6 @@ This project is intended to help both blind and sighted people learn piano skill
 - Rhythm trains the user to keep a steady beat. The user is given 4 ‘freebie’ beats where they keep beat with the browser and then 10 additional beats where they must try to maintain the same beat. The closer the BPM the better.  
 
 The traditional route to playing piano, that is through reading sheet music, is complicated in braille. Where expertise may be achieved through a sighted learner where they can play a written piece by ‘sight reading’, blind people unfortunately do not have this option. All of these skills in Piano Pro are useful to learning how to ‘play by ear’, an often preferred method of learning the piano by blind people. This app is meant to provide useful skills to any pianist wanting to practice music theory fundamentals for the purpose of learning songs by ear. 
-
-See Demo Here: https://drive.google.com/file/d/138F0zlhcnmUxIqiS_b-H9aO13JC24NJT/view?usp=sharing
 
 **MIDI Device Setup**  
 This app is MIDI device compatible! That is to say you can operate this app with the aid of an electric piano (this is the preferred way of using this app). Generally what one will need to do is find the manual or manufacturer’s site for the desired MIDI input device and download the correct driver so the page will recognize inputs. The specific process for each device is different, and drivers are often frustrating to install. The project is playable without a MIDI input device and instead using your keyboard, but it is difficult to do chord training without one.

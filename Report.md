@@ -12,6 +12,8 @@ This project is intended to help both blind and sighted people learn piano skill
 
 The traditional route to playing piano, that is through reading sheet music, is complicated in braille. Where expertise may be achieved through a sighted learner where they can play a written piece by ‘sight reading’, blind people unfortunately do not have this option. All of these skills in Piano Pro are useful to learning how to ‘play by ear’, an often preferred method of learning the piano by blind people. This app is meant to provide useful skills to any pianist wanting to practice music theory fundamentals for the purpose of learning songs by ear. 
 
+See Demo Here: https://drive.google.com/file/d/138F0zlhcnmUxIqiS_b-H9aO13JC24NJT/view?usp=sharing
+
 **MIDI Device Setup**  
 This app is MIDI device compatible! That is to say you can operate this app with the aid of an electric piano (this is the preferred way of using this app). Generally what one will need to do is find the manual or manufacturer’s site for the desired MIDI input device and download the correct driver so the page will recognize inputs. The specific process for each device is different, and drivers are often frustrating to install. The project is playable without a MIDI input device and instead using your keyboard, but it is difficult to do chord training without one.
 

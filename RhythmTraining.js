@@ -263,7 +263,7 @@ function startMetronome() {
 }
 
 function finalScore(score) {
-    say("Your BPM:" + score + ". Actual BPM" + targetBpm);
+    say("Your BPM" + score + ". Actual BPM" + targetBpm);
     gameMode = 2;
     countDown = 14;
     beatTimes = [];

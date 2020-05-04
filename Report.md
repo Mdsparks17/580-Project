@@ -9,6 +9,7 @@ This project is intended to help both blind and sighted people learn piano skill
 - Intervals trains the user's ear to pick up subtle differences between 2 notes. The Browser plays 2 notes, and the user decides if the 2 notes is the lower interval or the higher interval. 
 - Chords trains the user to identify and play chords of 10 different types. A chord is played and the user must play all the required notes at the same time.
 - Rhythm trains the user to keep a steady beat. The user is given 4 ‘freebie’ beats where they keep beat with the browser and then 10 additional beats where they must try to maintain the same beat. The closer the BPM the better.  
+
 The traditional route to playing piano, that is through reading sheet music, is complicated in braille. Where expertise may be achieved through a sighted learner where they can play a written piece by ‘sight reading’, blind people unfortunately do not have this option. All of these skills in Piano Pro are useful to learning how to ‘play by ear’, an often preferred method of learning the piano by blind people. This app is meant to provide useful skills to any pianist wanting to practice music theory fundamentals for the purpose of learning songs by ear. 
 
 **MIDI Device Setup**  
